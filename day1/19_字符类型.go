@@ -2,7 +2,7 @@
 * @Author: iphone5s
 * @Date:   2018-05-27 22:25:54
 * @Last Modified by:   tkk1234
-* @Last Modified time: 2018-05-27 22:54:02
+* @Last Modified time: 2018-05-28 22:45:03
  */
 package main // 必须有一个main包（和下面的mian函数是2个不同的东西）
 
@@ -12,7 +12,7 @@ import (
 
 func main() {
 	var (
-		haha byte = 97
+		haha byte = 97 //声明为字符类型并赋值
 	)
 	// 入口函数 main（就像一个商场的入口）,大括号必须和函数“main”这个英文同行！
 	// Println会自动换行
